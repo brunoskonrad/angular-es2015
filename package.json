@@ -1,0 +1,27 @@
+{
+  "name": "using_es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "export MY_TEST=true && karma start",
+    "webpack": "export MY_TEST=false && webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular-mocks": "^1.4.7",
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.10",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-webpack": "^1.7.0",
+    "phantomjs": "^1.9.18",
+    "webpack": "^1.12.2"
+  },
+  "dependencies": {
+    "angular": "^1.4.7"
+  }
+}
