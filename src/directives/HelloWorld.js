@@ -5,8 +5,7 @@ export function helloWorld() {
       who: '@'
     },
     controller: 'HelloWorldDirectiveCtrl',
-    // templateUrl: 'templates/hello-world.html'
-    template: '<p ng-click="helloWorldClick()">Hello, {{who}}</p>'
+    templateUrl: 'templates/hello-world.html'
   }
 }
 

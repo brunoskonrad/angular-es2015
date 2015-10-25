@@ -30,7 +30,7 @@ if (process.env.MY_TEST == 'true') {
   config.externals = {
     'angular': 'angular'
   };
-  // config.resolve.alias['templates'] = __dirname + '/build/templates';
+  config.resolve.alias['templates'] = __dirname + '/build/templates';
 } else {
   config.context = __dirname + '/src';
   config.entry = './index';
