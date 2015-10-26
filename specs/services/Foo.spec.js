@@ -7,7 +7,7 @@ describe('Foo', () => {
     subject = Foo;
   }));
 
-  it('expect that the Foo service is defined', () => {
-    expect(subject).toBeDefined();
+  it('gets the foo', () => {
+    expect(subject.getFoo()).toBe('foo');
   });
 });
